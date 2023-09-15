@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-light';
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+
+width: 100%;
+
+}
+#loader h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vw;
+    font-weight: 500;
+}
+#loader h1 span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.maz{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    
+    color:rgb(182, 113, 232);
+}
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background-color: rgb(5, 5, 5);
+    color: #fff;
+}
+#loader #topheading {
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50,0) ;
+}
+#topheading h5 {
+    align-items:center; 
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 300;
+}
+.reveal .parent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow-y: hidden;
+} 
+
+.reveal .parent .child {
+    display: block;
+    
+}
+.child span{
+    display:inline-block;
+}
+#purple{
+    
+    position: absolute;
+    top:100%;
+    width: 100%;
+    z-index: 999;
+    height: 0vh ;
+    background-color: rgb(182, 113, 232);
+}
+#white{
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    background-color:   #ded6eff8;
+}
+#home{
+    width: 100%;
+    height: 270vh;
+    background-color: #ded6ef;
+}
+#home #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+
+}
+#nav a{
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 14px;
+    color :black;
+}
+#nav a .line{
+    position: absolute;
+    /* right: 0; */
+    bottom: 0;
+    display:inline-block;
+    /* width: 100%; */
+    height: 1px;
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s; */
+    background-color: black;
+
+
+}
+/* #nav a:hover .line{
+    width: 0;
+} */
+
+#line1{
+  left: 0;
+  width: 0%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)  1s;
+    transition-delay: .1s;
+}
+
+
+#line2{
+    right:0; 
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    width: 100%;
+   
+}
+
+#nav a:hover #line2{
+
+    width: 0;
+    
+}
+
+#nav a:hover #line1{
+    
+    width: 100%;
+}
+.row{
+    margin-top: 5vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: #333;
+    padding: 0 7vw;
+    line-height: 1;
+    padding-right:12vw ;
+}
+.row h1{
+    font-size:13vw ;
+    font-weight: 500;
+}
+.row .text{
+    margin-top: 0vw;
+}
+.row h5 {
+    opacity: .6;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+
+.row:nth-child(3) {
+    margin-top: 0;
+    
+}
+/* .row svg {
+    height: 150px; 
+    margin: 0 2vw;
+}
+path ,polyline{
+    stroke: #14cf93;
+} */
+#imagery{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23vw;
+    width: 100%;
+    padding: 0 7vw;
+   
+}
+
+#imagery  #imglef{
+
+    width: 30%;
+    height: auto;
+    padding-left:3vw;
+    
+
+}
+
+#imagery  #imgrig{
+    /* background-color:rgb(219, 191, 238) ; */
+   align-items: center;
+   justify-content: center;
+    width: 30%;
+    height: auto;
+    
+
+}
+
+#imagery h1{
+    font-weight: 300;
+    font-size: 5vw;
+    color: rgb(132, 93, 160);
+    padding-bottom: 2vw;
+    
+     
+    
+}
+
+#imagery li{
+    font-weight: 300;
+    font-size: 3vw;
+    letter-spacing: 1px;
+    
+}
+#work{
+    width: 100%;
+    min-height: 70vh;
+    background-color: #F2F2F2;
+}
+
+footer{ 
+    height: 2vw;
+    background-color : rgb(146, 125, 155);
+}
+#web{
+    color: rgb(182, 113, 232);
+    font-size:9vw ;
+    font-weight: 500;
+}
+#intro{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vw;
+    width: 100%;
+    padding: 0 7vw;
+   
+}
+
+#intro h1 {
+    color:rgb(64, 53, 71) ;
+    font-weight: 100;
+}
+#intro h1 span {
+    color: rgb(182, 113, 232);
+}
+
+#intrig{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 60%;
+    height: 300px;
+}
+#intrig .intcntnr{
+    position: absolute;
+    width: 24vw;
+    height: 30vw;
+    border-radius: 1vw;
+    filter: grayscale();
+    transition : all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    background-color: red;
+}
+
+#intrig .intcntnr:hover{
+    filter: grayscale(0);
+}
+
+
+#intrig .intcntnr:nth-child(1){
+transform: translate(-40%,-8%) rotate(-20deg) ;
+background-image: url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60);
+background-size: cover;
+background-position: center;
+}
+#intrig .intcntnr:nth-child(2){
+    transform: translate(-15%,0%) rotate(-15deg);
+    background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#intrig .intcntnr:nth-child(3){
+    transform: translate(20%,10%) rotate(-5deg);
+    background-image: url(https://media.istockphoto.com/id/1442990973/photo/code-coding-and-computer-with-man-and-woman-team-in-programming-studio-for-it-and-cyber.jpg?s=612x612&w=0&k=20&c=o6FS_FmveZNfEU0R2ooaTJVRa-isY1mCk2733UXSJb0=);
+    background-size: cover;
+    background-position: center;
+}
