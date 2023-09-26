@@ -303,14 +303,14 @@ background-position: center;
 }
 #intrig .intcntnr:nth-child(2){
     transform: translate(-15%,0%) rotate(-15deg);
-    background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGV2ZWxvcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60);
+    background-image: url(https://media.istockphoto.com/id/1442990973/photo/code-coding-and-computer-with-man-and-woman-team-in-programming-studio-for-it-and-cyber.jpg?s=612x612&w=0&k=20&c=o6FS_FmveZNfEU0R2ooaTJVRa-isY1mCk2733UXSJb0=);
     background-size: cover;
     background-position: center;
 }
 
 #intrig .intcntnr:nth-child(3){
     transform: translate(20%,10%) rotate(-5deg);
-    background-image: url(https://media.istockphoto.com/id/1442990973/photo/code-coding-and-computer-with-man-and-woman-team-in-programming-studio-for-it-and-cyber.jpg?s=612x612&w=0&k=20&c=o6FS_FmveZNfEU0R2ooaTJVRa-isY1mCk2733UXSJb0=);
+    background-image: url(/My-Portfolio/assets/images/WhatsApp\ Image\ 2023-09-26\ at\ 13.03.22.jpg);
     background-size: cover;
     background-position: center;
 }
