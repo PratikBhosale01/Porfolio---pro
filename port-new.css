@@ -310,7 +310,7 @@ background-position: center;
 
 #intrig .intcntnr:nth-child(3){
     transform: translate(20%,10%) rotate(-5deg);
-    background-image: url(/My-Portfolio/assets/images/WhatsApp\ Image\ 2023-09-26\ at\ 13.03.22.jpg);
+    background-image: url(My-Portfolio/assets/images/WhatsApp\ Image\ 2023-09-26\ at\ 13.03.22.jpg);
     background-size: cover;
     background-position: center;
 }
