@@ -88,6 +88,7 @@ width: 100%;
     width: 100%;
     height: auto;
     background-color: #ded6ef;
+    padding-bottom: 2vw;
 }
 #home #nav{
     display: flex;
@@ -188,9 +189,10 @@ path ,polyline{
     
     display: flex;
     justify-content: space-between;
-    margin-top: 23vw;
+    margin-top: 20vw;
     width: 100%;
     padding: 0 7vw;
+    
    
 }
 
@@ -201,6 +203,7 @@ path ,polyline{
     padding :3vw;
     border: 1px solid ;
     border-radius: 1vw;
+
     
 
 }
@@ -242,7 +245,7 @@ path ,polyline{
 }
 
 footer{ 
-    height: 2vw;
+    height: auto;
     background-color : rgb(146, 125, 155);
 }
 #web{
